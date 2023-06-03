@@ -17,7 +17,7 @@ class TaskPage extends StatelessWidget {
           //Task Info View
           Expanded(flex: 1, child: Container(color: Colors.green)),
           //Task List View
-          Expanded(flex: 2, child: Container(color: Colors.blue)),
+          Expanded(flex: 7, child: Container(color: Colors.blue)),
         ]),
       ),
       floatingActionButton:
