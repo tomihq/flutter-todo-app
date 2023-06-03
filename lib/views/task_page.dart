@@ -12,12 +12,16 @@ class TaskPage extends StatelessWidget {
         //SafeArea: El contenido empieza desde el notch hacia abajo, esto es necesario debido a que ciertos dispositivos no tienen la pantalla transparente en la zona de la camara.
         bottom: false,
         child: Column(children: [
+          //HeaderView
           Expanded(flex: 1, child: Container(color: Colors.red)),
+          //Task Info View
           Expanded(flex: 1, child: Container(color: Colors.green)),
-          Expanded(flex: 1, child: Container(color: Colors.blue)),
+          //Task List View
+          Expanded(flex: 2, child: Container(color: Colors.blue)),
         ]),
       ),
-      floatingActionButton: Container(),
+      floatingActionButton:
+          Container(width: 50, height: 50, color: Colors.black),
     );
   }
 }
